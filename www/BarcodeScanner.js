@@ -1,4 +1,4 @@
-cordova.define("com.berheley.main.plugins.barcodeScanner.BarcodeScanner", function(require, exports, module) { /**
+/**
  * cordova is available under *either* the terms of the modified BSD license *or* the
  * MIT License (2008). See http://opensource.org/licenses/alphabetical for full text.
  *
@@ -70,4 +70,3 @@ if(!window.plugins) {
 if (!window.plugins.barcodeScanner) {
     window.plugins.barcodeScanner = cordova.require("cordova/plugins/barcodescanner");
 }
-});
